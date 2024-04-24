@@ -1,3 +1,4 @@
+import About from "../../components/about/About";
 import Footer from "../../components/footer/Footer";
 import Home from "../../components/home/Home";
 import Services from "../../components/services/Services";
@@ -7,6 +8,7 @@ export default function HomePage() {
   return (
     <div>
       <Home />
+      <About />
       <Services />
       <Footer />
     </div>
